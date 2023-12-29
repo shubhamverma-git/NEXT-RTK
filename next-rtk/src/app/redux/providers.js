@@ -1,5 +1,6 @@
 "use client";
-import { store } from "./Store";
+
+import { store } from "./store";
 
 const { Provider } = require("react-redux");
 

@@ -1,19 +1,21 @@
 NEXT JS and RTK - STEP BY STEP
 
-Main components of Redux are Action, Reducer, Store and Dispatcher. We keep Action and Reducer in same file and that file is known as Slice.
-Slice is a combination of Action and Reducer or (Action + Reducer).
+Main components of Redux are 'Action', 'Reducer', 'Store' and 'Dispatcher'. We keep 'Action and Reducer' in same file and that file is known as 'Slice'.
+'Slice' is a combination of Action and Reducer or (Action + Reducer).
 
-RTK FLOW - First we dispatch the data from the app and this dispatching of data is know as Action. Middleware who send Action data to store is known as Reducer. With the help of Reducer we save the data in store. In the last Store save the data whatever reducer sent.
+RTK FLOW - First we 'dispatch' the data from the app and this dispatching of data is know as 'Action'. Middleware who send 'Action data' to store is known as "Reducer". With the help of 'Reducer' we save the data in 'store'. In the last Store save the data whatever reducer sent.
 
-Step 1: First make the folder in src or app (app is recommended) and make three files with the name store.js, slice.js, and providers.js
+Step 1: First make the folder in src or app (app is recommended) and make three files with the name 'store.js', 'slice.js', and 'providers.js'.
 
-Step 2: Then make and export configureStore function in store.js file. ConfigureStore is a type of function in which we pass the reducers in object.
+Step 2: Then make and export configureStore function in 'store.js' file. 'ConfigureStore' is a type of function in which we pass the reducers in object.
 
-Step 3: Now make and export Provider function and pass children in the parameter in Providers.js file. Provider connect the app and RTK in a singe file by wrapping them together.
+Step 3: Now make and export Provider function and pass children in the parameter in 'Providers.js' file. Provider connect the app and RTK in a singe file by wrapping them together.
 
-Step 4: Export Children in Layout.js file. All the components come in that Providers component so that Providers Component will get the data of all the components that we will make in the whole app.
+Step 4: Export Children in 'Layout.js' file. All the components come in that Providers component so that Providers Component will get the data of all the components that we will make in the whole app.
 
-step 5: Now pass store in Provider function in Providers.js file. Through this all the data which we will be pass through reducer will save in the store.
+Step 5: Now pass store in Provider function in 'Providers.js' file. Through this all the data which we will be pass through reducer will save in the store.
+
+Step 6: Now we will make two components, First to 'send' the data in 'store' and Second to 'get' the data from the 'store'. And import both components in 'page.js' file.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

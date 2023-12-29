@@ -1,9 +1,13 @@
 import Image from "next/image";
+import AddUsers from "./components/AddUsers";
+import DisplayUsers from "./components/DisplayUsers";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>HII</h1>
+    <main>
+      <h1>Redux Toolkit</h1>
+      <AddUsers />
+      <DisplayUsers />
     </main>
   );
 }

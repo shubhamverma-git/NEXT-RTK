@@ -1,3 +1,32 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+.add_user {
+  height: 200px;
+  padding: 10px;
+  padding-left: 40px;
+  border: 1px solid orange;
+}
+
+.add_user_input {
+  width: 250px;
+  height: 35px;
+  display: block;
+}
+
+.add_user_btn {
+  width: 250px;
+  height: 35px;
+  cursor: pointer;
+  display: block;
+  /* margin: 20px; */
+}
+
+.display_users {
+  height: 600px;
+  padding: 10px;
+  padding-left: 50px;
+  margin-top: 50px;
+  border: 1px solid skyblue;
+}
