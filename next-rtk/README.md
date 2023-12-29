@@ -5,6 +5,8 @@ Slice is a combination of Action and Reducer or (Action + Reducer).
 
 RTK FLOW - First we dispatch the data from the app and this dispatching of data is know as Action. Middleware who send Action data to store is known as Reducer. With the help of Reducer we save the data in store. In the last Store save the data whatever reducer sent.
 
+Step 1: First make the folder in src or app (app is recommended) and make three files with the name store.js, slice.js, provider.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
