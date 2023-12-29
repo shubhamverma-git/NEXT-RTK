@@ -16,7 +16,9 @@ Step 5: Now pass store in Provider function in 'Providers.js' file. Through this
 
 Step 6: Now we will make two components, First to 'send' the data in 'store' and Second to 'get' the data from the 'store'. And import both components in 'page.js' file.
 
-Step 7: Now we will work in 'slice.js'. First, 'createSlice' and then 'initialState'. Then declare initialState, then make createSlice function and in that function and put initialState, declare 'reducers' in the 'object' inside in this function. Reducers is an object in which we will declare our 'actions'. In this object Action is like a 'function' which holds 'state' and 'action'. Then export action and reducer both.
+Step 7: Now we will work in 'slice.js'. First, 'createSlice' and then 'initialState'. Then declare initialState, then make createSlice function and in that function and declare name, initialState, and 'reducers' in the 'object' inside in this function. Reducers is an object in which we will declare our 'actions'. In this object Action is like a 'function' which holds 'state' and 'action'. Then export action and reducer both. And also import this reducer in the 'store.js' file. Then import 'addUser' action from 'slice.js' file in 'addUsers' component. To send data in Slice we have to use Redux hook 'useDispatch'.
+
+Step 8:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
