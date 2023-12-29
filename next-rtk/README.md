@@ -1,7 +1,6 @@
 NEXT JS and RTK - STEP BY STEP
 
-Main components of Redux are 'Action', 'Reducer', 'Store' and 'Dispatcher'. We keep 'Action and Reducer' in same file and that file is known as 'Slice'.
-'Slice' is a combination of Action and Reducer or (Action + Reducer).
+Main components of Redux are 'Action', 'Reducer', 'Store' and 'Dispatcher'. We keep 'Action and Reducer' in same file and that file is known as 'Slice'. 'Slice' is a combination of Action and Reducer or (Action + Reducer). Slice is a collection of Redux 'Reducer' logic and "Actions" for a single feature in our app. But Action and Reducer must be of 'same feature' to make Slice works.
 
 RTK FLOW - First we 'dispatch' the data from the app and this dispatching of data is know as 'Action'. Middleware who send 'Action data' to store is known as "Reducer". With the help of 'Reducer' we save the data in 'store'. In the last Store save the data whatever reducer sent.
 
@@ -16,6 +15,8 @@ Step 4: Export Children in 'Layout.js' file. All the components come in that Pro
 Step 5: Now pass store in Provider function in 'Providers.js' file. Through this all the data which we will be pass through reducer will save in the store.
 
 Step 6: Now we will make two components, First to 'send' the data in 'store' and Second to 'get' the data from the 'store'. And import both components in 'page.js' file.
+
+Step 7: Now we will work in 'slice.js'. First, 'createSlice' and then 'initialState'. Then declare initialState, then make createSlice function and in that function and put initialState, declare 'reducers' in the 'object' inside in this function. Reducers is an object in which we will declare our 'actions'. In this object Action is like a 'function' which holds 'state' and 'action'. Then export action and reducer both.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
