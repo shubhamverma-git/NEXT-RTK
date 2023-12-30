@@ -1,4 +1,4 @@
-NEXT JS and RTK - STEP BY STEP
+RTK in NEXT JS - STEP BY STEP
 
 Main components of Redux are 'Action', 'Reducer', 'Store' and 'Dispatcher'. We keep 'Action and Reducer' in same file and that file is known as 'Slice'. 'Slice' is a combination of Action and Reducer or (Action + Reducer). Slice is a collection of Redux 'Reducer' logic and "Actions" for a single feature in our app. But Action and Reducer must be of 'same feature' to make Slice works.
 
