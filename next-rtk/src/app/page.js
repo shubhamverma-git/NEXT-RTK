@@ -1,13 +1,15 @@
-import Image from "next/image";
-import AddUsers from "./components/AddUsers";
-import DisplayUsers from "./components/DisplayUsers";
+// import Image from "next/image";
+// import AddUsers from "./components/AddUsers";
+// import DisplayUsers from "./components/DisplayUsers";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>Redux Toolkit</h1>
-      <AddUsers />
-      <DisplayUsers />
+      {/* <Header /> */}
+      {/* <h1>Redux Toolkit</h1> */}
+      {/* <AddUsers />
+      <DisplayUsers /> */}
     </main>
   );
 }

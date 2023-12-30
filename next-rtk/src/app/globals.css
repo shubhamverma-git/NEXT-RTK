@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities; */
 
-.add_user {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .add_user {
   height: 200px;
   padding: 10px;
   padding-left: 40px;
@@ -20,13 +26,12 @@
   height: 35px;
   cursor: pointer;
   display: block;
-  /* margin: 20px; */
+  margin: 20px;
 }
 
 .display_users {
   height: 600px;
   padding: 10px;
-  padding-left: 50px;
   margin-top: 50px;
   border: 1px solid skyblue;
-}
+} */

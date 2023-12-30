@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.mob_links {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.page_link {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
