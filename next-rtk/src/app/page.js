@@ -1,9 +1,9 @@
-import ProductsGroup from "@/components/Custom/ProductsGroup";
+import ClientSide from "@/components/Custom/ClientSide";
 
 function Home() {
   return (
     <main>
-      <ProductsGroup />
+      <ClientSide />
     </main>
   );
 }
