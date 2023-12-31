@@ -1,0 +1,29 @@
+.container {
+  background-color: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  .upper_container {
+    display: flex;
+    gap: 20px;
+    .label {
+      //   align-items: center;
+    }
+    input {
+      border-radius: 5px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+  }
+  .lower_container {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    .links {
+      text-decoration: none;
+      color: black;
+      //   list-style-type: none;
+    }
+  }
+}

@@ -7,8 +7,11 @@ function Header() {
     <div className={`flex ${classes.container}`}>
       <div className={classes.logo_container}>
         <Link className={classes.page_link} href="/">
-          <h1>RTK</h1>
+          <h1>Home</h1>
         </Link>
+      </div>
+      <div className={classes.title_container}>
+        <h1>Welcome to RTK APP</h1>
       </div>
       <div className={`flex justify-between ${classes.page_links}`}>
         <ul className={classes.mob_links}>
