@@ -1,8 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import classes from "./index.module.scss";
+import { useDispatch, useSelector } from "react-redux";
+import { cartActions } from "@/Store/reducers/cart-reducer";
 
 function ClientSide() {
+  const dispatch = useDispatch();
+  const cartItems = useSelector((state) => state.cartItems);
+  console.log(cartItems);
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch("https://fakestoreapi.com/products").then((data) => {
@@ -12,7 +17,7 @@ function ClientSide() {
     });
   }, []);
   function addToCartHandler(item) {
-    console.log(item);
+    dispatch(cartActions.addItems([...cartItems, item]));
   }
   return (
     <div className="flex flex-col gap-4 ">

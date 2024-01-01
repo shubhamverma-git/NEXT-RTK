@@ -1,0 +1,5 @@
+Step 1: Create a folder name 'Store' in src.
+Step 2: Create a file in 'Store' folder named index.js
+Step 3: Import 'configureStore'. This will work as a wrapper of all redux slices(reducer).
+Step 4: Create 'reducers' named folder in 'Store'. Create a file 'cartReducer.js' in it.
+Step 5: Import 'createSlice' then make const cartSlice with 'name', initialState, 'reducers'. 
